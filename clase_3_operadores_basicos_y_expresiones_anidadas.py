@@ -4,7 +4,7 @@
 
 #Expresiones Algebraicas
 
-a=1
+a= 1
 a + 2
 
 #Boolean/Boleano/Lógico/Binary/Binario
@@ -38,15 +38,15 @@ not False # True
 
 # And
 True and False # False
-a = 1
-0 == (a * 0) and a == (33/33) and (5 == 1 + a ) # True
+b = 1
+0 == (b * 0) and a == (33/33) and (5 == 1 + b ) # True
 
 
 # Or
 False or False == False
-b = 1
-b == 1 or b == 2 # True
-b == 5 or b == 2 # False
+c = 1
+c == 1 or c == 2 # True
+c == 5 or c == 2 # False
 
 #Not
 
@@ -58,11 +58,11 @@ not (True and False) == (not True or not False) # True
 not(False or False) == (not False and not False) # True
 
 # Operador de Asignación
-c = 10
-c += 1
-c -= 1
-c /= 2
-c %= 2
-c *= 2
-c **= 5
+d = 10
+d += 1
+d -= 1
+d /= 2
+d %= 2
+d *= 2
+d **= 2
 
