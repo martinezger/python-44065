@@ -20,7 +20,7 @@ not False # True
 1 + 1 == 3 # False
 
 1 != 2 # True
-1 != 2 # False
+2 != 2 # False
 
 1 < 3  # True
 3 <= 3 # True
@@ -39,8 +39,7 @@ not False # True
 # And
 True and False # False
 b = 1
-0 == (b * 0) and a == (33/33) and (5 == 1 + b ) # True
-
+0 == (b * 0) and a == (33/33) and (5 == 1 + b ) # False
 
 # Or
 False or False == False
@@ -57,12 +56,28 @@ not (True and False) == (not True or not False) # True
 
 not(False or False) == (not False and not False) # True
 
+
+# Expresiones anidadas
+
+nombre = "German"
+edad = 35
+
+codicion_1 = "****" != nombre
+
+codicion_2 = edad > 5 and edad < 20
+
+codicion_3 = len(nombre) >= 4 and len(nombre) < 8
+
+codicion_4 = edad * 3 > 35
+
+print(codicion_1 and codicion_2 and codicion_3 and codicion_4)
+
+
 # Operador de Asignación
 d = 10
-d += 1
-d -= 1
-d /= 2
-d %= 2
-d *= 2
-d **= 2
-
+d += 1   # d = d + 1
+d -= 1   # d = d - 1
+d //= 2   # d = d / 2
+d %= 2   # d = d % 2
+d *= 2   # d = d * 2
+d **= 2  # d = d ** 2
