@@ -48,14 +48,26 @@ else:
 
 
 #Validar nota
-nota = 5  
+nota = 9
+if nota == 10:
+    print("Excelente")
+    
 if nota >= 9 :
   print("Sobresaliente")
 
-if nota >= 6 :
-  print("BUeno")
+if nota >= 7 :
+  print("Bueno")
 else:
   print("Insuficiente")
 
 
 
+# Validar Nota
+if nota == 10:
+    print("Excelente")
+elif nota >= 9 :
+  print("Sobresaliente")
+elif nota >= 7 :
+  print("BUeno")
+else:
+  print("Insuficiente")
