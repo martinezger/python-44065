@@ -26,13 +26,13 @@ antigüedad = 2
 ingreso = 4000
 
 mayor_de_edad = edad > 18
-antigüedad_de_tres_años = antigüedad >= 3
-ingreso_minimo_2500 = ingreso >= 2500
-ingreso_minimo_4000 = ingreso >=  4000
+antigüedad_minima = antigüedad >= 3
+ingreso_minimo_con_antigüedad = ingreso >= 2500
+ingreso_minimo_sin_antigüedad = ingreso >=  4000
 
-if mayor_de_edad and antigüedad_de_tres_años and ingreso_minimo_2500:
+if mayor_de_edad and antigüedad_minima and ingreso_minimo_con_antigüedad:
     print("Credito aprobado")
-elif mayor_de_edad and ingreso_minimo_4000:
+elif mayor_de_edad and ingreso_minimo_sin_antigüedad:
     print("Credito aprobado")
 else:
     print("credito no aprobado")
