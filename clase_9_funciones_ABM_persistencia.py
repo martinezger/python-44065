@@ -97,13 +97,14 @@ def modificar_usuario():
 
         else:
             usuarios[criterio] = (nombre, edad, password)
-            print(f"Usuario se modificó con éxito el usuario {criterio}")
+            print(f"Se modificó con éxito el usuario {criterio}")
             print((nombre, edad, password))
 
 
 def persistir():
     with open("usuarios.json", "w") as archivo:
         archivo.writelines(json.dumps(usuarios, indent=2))
+
 
 
 # Inicio de mi script
