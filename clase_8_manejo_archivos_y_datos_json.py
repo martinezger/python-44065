@@ -5,7 +5,7 @@ import json
 
 # Obtengo un mensaje en formato json desde un servidor
 print("====Buscar por Id de personaje=====")
-respuesta = urllib.request.urlopen(f"https://rickandmortyapi.com/api/character/?page={page_num}")
+respuesta = urllib.request.urlopen(f"https://rickandmortyapi.com/api/character/1")
 body = json.loads(respuesta.read())
 print(json.dumps(body, indent=10))
 
