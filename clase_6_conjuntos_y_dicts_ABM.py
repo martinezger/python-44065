@@ -95,7 +95,7 @@ while True:
                 print("Corrija los errores")
 
             else:
-                usuarios[usuario] = (nombre, edad, password)
+                usuarios[criterio] = (nombre, edad, password)
                 print(f"Usuario se modificó con éxito el usuario {criterio}")
                 print((nombre, edad, password))
                 
