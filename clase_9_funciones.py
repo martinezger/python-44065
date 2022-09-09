@@ -15,7 +15,7 @@ def sum_string(un_iterable):
     mi_funcion_adentro_de_una_funcion()
     return suma
     
-def sum_entero():
+def sum_entero(un_iterable):
         suma = 0    
         for i in un_iterable:
             suma +=i
@@ -33,7 +33,7 @@ def media_aritmetica(lista_numeros):
         cantidad = len(lista_numeros)
         return (suma / cantidad) + 1
      
-def media_aritmetica(lista_numeros):
+def media_aritmetica_dos(lista_numeros):
         return sum(lista_numeros) / len(lista_numeros)
 
 def es_multiplo(a,b):
