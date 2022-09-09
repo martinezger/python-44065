@@ -130,6 +130,7 @@ if __name__ == "__main__":
             modificar_usuario()
         elif operacion == "5":
             print("Se sale del programa.")
+            persistir()
             break    
         else:
             print("La operación ingresada no existe")
