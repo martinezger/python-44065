@@ -33,15 +33,21 @@ for reglon in archivo_texto:
 
 archivo_texto.close()
 
-'''
 archivo_texto = open("guia_telefonos.json", "a")
-
 archivo_texto.write("\nESCRIBO ALGO EN EL FILE")
 archivo_texto.close()
-'''
+
 
 archivo_texto = open("guia_telefonos.json", "r")
-guia_telefonos = json.load(archivo_texto)
+for reglon in archivo_texto:
+  print(reglon)
 
+archivo_texto.close()
+
+
+'''
+archivo_texto = open("guia_telefonos.json", "r")
+guia_telefonos = json.load(archivo_texto)
+'''
 
 
