@@ -141,3 +141,5 @@ static/
 heroku/
 not_for_share/
 
+
+.DS_Store
