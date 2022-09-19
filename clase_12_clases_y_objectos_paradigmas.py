@@ -1,4 +1,5 @@
-#funcional
+#Declarativa
+
 import functools
 
 una_lista = [1,2,3,4]
@@ -9,13 +10,12 @@ result = functools.reduce(sumar_func, una_lista)
 print(result)
 
 #imperativa
+
 result = 0
 for item in una_lista:
     result += item
 print(result)
 
-
-#procedural
 def sumar_proc(una_lista):
     resultado=0
     for item in una_lista:
@@ -24,7 +24,7 @@ def sumar_proc(una_lista):
 
 print(sumar_proc(una_lista))
 
-#Object Oriented coding Style
+#Orientada a objetos
 
 class SumarLista:
     
