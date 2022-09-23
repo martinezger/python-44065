@@ -58,7 +58,9 @@ class Punto:
 
 
 a = Punto(1,2)
+b = Punto(2,3)
 
-a.print_punto() 
+a.print_punto()
+b.print_punto() 
 
 
