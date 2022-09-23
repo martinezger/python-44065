@@ -45,7 +45,7 @@ class Persona:
 
   
   def print_idioma(self):
-    print(self.__idioma) #  Name mangling - Modo Privado
+    print(Persona.__idioma) #  Name mangling - Modo Privado
                                     
 
   def presentarse(self):
