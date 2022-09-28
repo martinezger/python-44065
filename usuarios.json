@@ -1,0 +1,20 @@
+{
+  "Camila": {
+    "usuario": "Camila",
+    "nombre": "camila",
+    "edad": "35",
+    "password": "pas#"
+  },
+  "Raul": {
+    "usuario": "Raul",
+    "nombre": "raul",
+    "edad": "21",
+    "password": "pass#"
+  },
+  "Carlos": {
+    "usuario": "Carlos",
+    "nombre": "carlos",
+    "edad": "44",
+    "password": "pass#"
+  }
+}
