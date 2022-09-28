@@ -9,9 +9,7 @@ class Usuario:
         self.edad = edad
         self.password = password
 
-    def __hash__(self):
-        return hash(self.usuario)
-    
+ 
     def __str__(self):
         return f"Usuario:{self.usuario}, Nombre:{self.nombre}, Edad:{self.edad}"
 
@@ -58,13 +56,13 @@ class MenuAbm:
         nuevo_usuario = Usuario(usuario, nombre, edad, password)
         usuario_valido = nuevo_usuario.validar_datos_usuario()
 
-        regla_usaurio_no_repetido = (nuevo_usuario not in self.usuarios)
+        regla_usaurio_repetido = (usuario in self.usuarios)
         regla_repetir_password = password == password_dos
 
         if not regla_repetir_password:
             print("Los passwords no coinciden.")
             usuario_valido = False
-        if not regla_usaurio_no_repetido:
+        if regla_usaurio_repetido:
             print("El usuario ingresado ya existe")
             usuario_valido = False
 
@@ -100,7 +98,7 @@ class MenuAbm:
             password_dos = input("Repita el password:")
             
             usuario_valido = True
-            usuario_modificado = Usuario(usuario_encontrado.usuario, nombre, edad, password)
+            usuario_modificado = Usuario(criterio, nombre, edad, password)
             usuario_valido = usuario_modificado.validar_datos_usuario()
             regla_repetir_password = password == password_dos
 
@@ -111,7 +109,7 @@ class MenuAbm:
                 print("Corrija los errores")
 
             else:
-                usuarios[usuario_encontrado] = usuario_modificado
+                usuarios[criterio] = usuario_modificado.__dict__
                 print(f"Se modificó con éxito {usuario_encontrado}")
 
     def __persistir(self):
