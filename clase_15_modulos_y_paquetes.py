@@ -1,5 +1,6 @@
 from collections import namedtuple
 
+
 Basquetbolista = namedtuple("Basquetbolista", ["altura", "dobles", "triples","equipo"])
 jordan = Basquetbolista(altura=2.0, dobles=1000, triples=5000, equipo="Chicago Bulls")
 print(jordan)
@@ -23,6 +24,7 @@ a = datetime(year=2021, month=2, day=1)
 b = datetime(year=2022, month=2, day=2)
 
 c = b - a
+
 print(type(c))
 print(c)
 
