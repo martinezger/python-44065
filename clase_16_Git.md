@@ -25,7 +25,7 @@ git remote add origin NOMBRE_DE_REPO
 ```
 
 ## Comandos para crear un repositorio local Git:
-Crear un repo que con el nombre coder_house:
+Crear un repo con el nombre coder_house:
 ```bash
 git init coder_house
 ```
