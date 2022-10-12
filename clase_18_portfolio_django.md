@@ -70,5 +70,7 @@ urlpatterns = [
 
 - Para guardar los cambios en github:
   ```git add .```
+  
   ```git commit -m "primer commit de mi proyecto"```
+  
   ```git push origin main```
