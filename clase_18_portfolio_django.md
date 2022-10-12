@@ -59,11 +59,11 @@ INSTALLED_APPS = [
 ```python
 from django.contrib import admin
 from django.urls import path
-from ejemplo.views import saludar
+from ejemplo.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('saludar/', saludar), # ESTA ES LA NUEVA FUNCTION
+    path('saludar/', index), # ESTA ES LA NUEVA FUNCTION
 ]
 ```
 - Correr ```python manage.py runserver``` ir a [http://127.0.0.1:8000](http://127.0.0.1:8000)
