@@ -113,7 +113,7 @@ Esta oopción solo funciona en terminal bash:
 python manage.py shell < seed_data.py
 ```
 
-Para un terminar cmd o powershell, tienen que hacer, primero:
+Para un terminal cmd o powershell, tienen que hacer, primero:
 ```cmd
 python manage.py shell
 ```
@@ -122,7 +122,7 @@ una vez que estan en el shell hacer:
 ```python
 import seed_data
 ```
-al finalizar se tiene que ver un msj que diga: 
+al finalizar, para ambos casos, se tiene que ver un msj que diga: 
 ```
 Se cargo con exito los usuarios de pruebas
 ```
