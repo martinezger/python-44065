@@ -101,7 +101,7 @@ Familiar(nombre="Alberto", direccion="Rio Parana 745", numero_pasaporte=890890).
 Familiar(nombre="Samuel", direccion="Rio Parana 745", numero_pasaporte=345345).save()
 Familiar(nombre="Florencia", direccion="Rio Parana 745", numero_pasaporte=567567).save()
 
-print("Se cargo con exito los usuarios de pruebas")
+print("Se cargo con éxito los usuarios de pruebas")
 
 ```
 
@@ -124,7 +124,7 @@ import seed_data
 ```
 al finalizar, para ambos casos, se tiene que ver un msj que diga: 
 ```
-Se cargo con exito los usuarios de pruebas
+Se cargo con éxito los usuarios de pruebas
 ```
 
 Despues volvemos a correr el servidor de pruebas y veremos una lista de familiares.
