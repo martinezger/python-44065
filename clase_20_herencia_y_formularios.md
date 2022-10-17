@@ -29,10 +29,6 @@ Partiendo del siguiente ejemplo [clase_19_portfolio_django_mondelos_y_templates.
           <input type="submit" value="Submit">
         </form>
 
-        {% if not lista_familiares %}   
-        <h2>No hay familiares con ese nombre</h2>
-        {% endif %}
-        
         {% for familiar in lista_familiares %}
         <ul>
             <li> Nombre: {{familiar.nombre}}, Dirección: {{familiar.direccion}}, Pasaporte: {{familiar.numero_pasaporte}}</li>
