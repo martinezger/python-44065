@@ -67,11 +67,10 @@ Partiendo del siguiente ejemplo [clase_19_portfolio_django_mondelos_y_templates.
                 form = self.form_class(initial=self.initial)
                 return render(request, self.template_name, {'form':form, 
                                                             'lista_familiares':lista_familiares})
-
             return render(request, self.template_name, {"form": form})
 
     ```
-  - Cuarto tenemso que routear la vista con una nueva url en `project/urls.py`:
+  - Cuarto tenemos que routear la vista con una nueva url en `project/urls.py`:
     ```python
       from django.contrib import admin
       from django.urls import path
@@ -88,7 +87,7 @@ Partiendo del siguiente ejemplo [clase_19_portfolio_django_mondelos_y_templates.
           path('mi-familia/', monstrar_familiares),
           path('blog/', blog_index),
           path('mi-familia/buscar', BuscarFamiliar.as_view()), # NUEVA RUTA PARA BUSCAR FAMILIAR
-
+      ]
     ```
 
 # Pasos para implementar Herencia de templates
