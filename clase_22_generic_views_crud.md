@@ -1,5 +1,5 @@
 # Pasos para poder implementar generic views CRUD
-Partiendo del siguiente ejemplo [clase_21_formulario_de_actulizar_borrado.md](clase_21_formulario_de_actulizar_borrado.md), Vamos a implementar las vistas genéricas para hacer crud que django trae:
+Partiendo del siguiente ejemplo [clase_21_formulario_de_actualizar.md](clase_21_formulario_de_actualizar.md), Vamos a implementar las vistas genéricas para hacer crud que django trae:
 
 ### LIST VIEW
 
