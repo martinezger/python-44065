@@ -89,7 +89,7 @@ Partiendo del siguiente ejemplo [clase_21_formulario_de_actualizar.md](clase_21_
   </head>
   <body>
 
-      <form action="/panel-familia/crear", method="post">
+      <form method="post">
           {% csrf_token %}
           {{form.as_p}}
           <input type="submit" value="agregar">
